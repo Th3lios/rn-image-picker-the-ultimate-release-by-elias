@@ -1,0 +1,19 @@
+{
+  "name": "rn-image-picker-the-ultimate-release-by-elias",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/ImagePicker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Th3lios/rn-image-picker-the-ultimate-release-by-elias.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Th3lios/rn-image-picker-the-ultimate-release-by-elias/issues"
+  },
+  "homepage": "https://github.com/Th3lios/rn-image-picker-the-ultimate-release-by-elias#readme"
+}
