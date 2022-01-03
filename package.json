@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Th3lios/rn-image-picker-the-ultimate-release-by-elias/issues"
   },
-  "homepage": "https://github.com/Th3lios/rn-image-picker-the-ultimate-release-by-elias#readme"
+  "homepage": "https://github.com/Th3lios/rn-image-picker-the-ultimate-release-by-elias#readme",
+  "dependencies": {
+    "expo-permissions": "^13.1.0",
+    "uuid": "^8.3.2"
+  }
 }

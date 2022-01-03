@@ -1,0 +1,48 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="expo.modules.imagepicker"
+4    android:versionCode="21"
+5    android:versionName="9.2.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Volumes/Samsung_T5/Projects/ReactNative/yapp_app/node_modules/expo-image-picker/android/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Volumes/Samsung_T5/Projects/ReactNative/yapp_app/node_modules/expo-image-picker/android/src/main/AndroidManifest.xml
+10    <!-- Required for picking images from camera directly -->
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->/Volumes/Samsung_T5/Projects/ReactNative/yapp_app/node_modules/expo-image-picker/android/src/main/AndroidManifest.xml:5:5-64
+11-->/Volumes/Samsung_T5/Projects/ReactNative/yapp_app/node_modules/expo-image-picker/android/src/main/AndroidManifest.xml:5:22-62
+12
+13    <!-- Required for picking images from camera roll -->
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->/Volumes/Samsung_T5/Projects/ReactNative/yapp_app/node_modules/expo-image-picker/android/src/main/AndroidManifest.xml:8:5-80
+14-->/Volumes/Samsung_T5/Projects/ReactNative/yapp_app/node_modules/expo-image-picker/android/src/main/AndroidManifest.xml:8:22-78
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->/Volumes/Samsung_T5/Projects/ReactNative/yapp_app/node_modules/expo-image-picker/android/src/main/AndroidManifest.xml:9:5-79
+15-->/Volumes/Samsung_T5/Projects/ReactNative/yapp_app/node_modules/expo-image-picker/android/src/main/AndroidManifest.xml:9:22-77
+16
+17    <application>
+17-->/Volumes/Samsung_T5/Projects/ReactNative/yapp_app/node_modules/expo-image-picker/android/src/main/AndroidManifest.xml:11:5-22:19
+18
+19        <!-- https://developer.android.com/guide/topics/manifest/provider-element.html -->
+20        <provider
+20-->/Volumes/Samsung_T5/Projects/ReactNative/yapp_app/node_modules/expo-image-picker/android/src/main/AndroidManifest.xml:13:9-21:20
+21            android:name="expo.modules.imagepicker.ImagePickerFileProvider"
+21-->/Volumes/Samsung_T5/Projects/ReactNative/yapp_app/node_modules/expo-image-picker/android/src/main/AndroidManifest.xml:14:13-52
+22            android:authorities="dollar_openBracket_applicationId_closeBracket.ImagePickerFileProvider"
+22-->/Volumes/Samsung_T5/Projects/ReactNative/yapp_app/node_modules/expo-image-picker/android/src/main/AndroidManifest.xml:15:13-75
+23            android:exported="false"
+23-->/Volumes/Samsung_T5/Projects/ReactNative/yapp_app/node_modules/expo-image-picker/android/src/main/AndroidManifest.xml:16:13-37
+24            android:grantUriPermissions="true" >
+24-->/Volumes/Samsung_T5/Projects/ReactNative/yapp_app/node_modules/expo-image-picker/android/src/main/AndroidManifest.xml:17:13-47
+25            <meta-data
+25-->/Volumes/Samsung_T5/Projects/ReactNative/yapp_app/node_modules/expo-image-picker/android/src/main/AndroidManifest.xml:18:13-20:70
+26                android:name="android.support.FILE_PROVIDER_PATHS"
+26-->/Volumes/Samsung_T5/Projects/ReactNative/yapp_app/node_modules/expo-image-picker/android/src/main/AndroidManifest.xml:19:17-67
+27                android:resource="@xml/image_picker_provider_paths" />
+27-->/Volumes/Samsung_T5/Projects/ReactNative/yapp_app/node_modules/expo-image-picker/android/src/main/AndroidManifest.xml:20:17-68
+28        </provider>
+29    </application>
+30
+31</manifest>
